@@ -1,0 +1,10 @@
+TEST ApiTest
+
+    SEND GET request to:
+        https://jsonplaceholder.typicode.com/todos/1
+
+    VERIFY response status is 200
+
+    VERIFY response contains "title"
+
+END TEST
