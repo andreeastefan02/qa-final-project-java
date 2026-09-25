@@ -1,5 +1,3 @@
-![CI/CD Pipeline]
-
 # QA Final Project - Java
 
 ## Project Description
