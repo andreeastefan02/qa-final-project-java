@@ -1,5 +1,4 @@
 package com.andreeastefan.homework;
-
 import java.util.Scanner;
 
 
