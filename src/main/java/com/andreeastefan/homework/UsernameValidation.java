@@ -1,7 +1,6 @@
 package com.andreeastefan.homework;
+
 import java.util.Scanner;
-
-
 
 public class UsernameValidation {
     public static void main(String[] args) {
