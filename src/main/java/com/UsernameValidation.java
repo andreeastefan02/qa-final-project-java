@@ -1,8 +1,7 @@
-package com.andreeastefan.homework;
+package com;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Scanner;
-
-
 
 public class UsernameValidation {
     public static void main(String[] args) {
@@ -16,7 +15,7 @@ public class UsernameValidation {
     }
 
 
-    public static boolean checkText(String userName) {
+    public static boolean checkText(@NotNull String userName) {
         boolean hasDigit = false;
         for (int i = 0; i < userName.length(); i++) {
             char text = userName.charAt(i);
