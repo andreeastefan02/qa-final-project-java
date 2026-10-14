@@ -3,9 +3,9 @@ package com.andreeastefan.homework;
 public class BrowserConfig {
     BrowserType browser;
     String version;
-    Boolean isHeadless;
+    boolean isHeadless;
 
-    public BrowserConfig(BrowserType browser, String version, Boolean isHeadless) {
+    public BrowserConfig(BrowserType browser, String version, boolean isHeadless) {
         this.browser = browser;
         this.version = version;
         this.isHeadless = isHeadless;
